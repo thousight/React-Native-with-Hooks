@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
 
-const App = () => {
-  const [count, setCount] = useState(0);
+const SimpleCounter = () => {
+  const [count, setCount] = useState(-2);
 
   return (
     <View style={styles.container}>
+      <Text style={styles.welcome}>Simple Counter</Text>
       <Text style={styles.welcome}>You clicked {count} times</Text>
       <Button onPress={() => setCount(count + 1)} title="Click me" />
     </View>
@@ -17,7 +18,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F5FCFF"
   },
   welcome: {
     fontSize: 20,
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default App;
+export default SimpleCounter;
