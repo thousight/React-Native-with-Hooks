@@ -1,4 +1,7 @@
 # React-Native-With-Hooks
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/thousight/React-Native-with-Hooks.svg)](https://greenkeeper.io/)
+
 Trying [React Hooks](https://reactjs.org/docs/hooks-state.html) with React Native
 
 ### Setup Experience
